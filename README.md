@@ -7,8 +7,8 @@ Authenticate to Wazuh API, trigger ruleset reload (analysisd), pretty-print resu
 
 ```bash
 cd /var/ossec/bin
-OR
-/usr/local/bin/
+   OR
+cd /usr/local/bin/
 wget -O wazuh-reload-rule https://raw.githubusercontent.com/adampielak/wazuh-reload-rules/refs/heads/main/wazuh-reload-rules.sh
 chmod 0750 wazuh-reload-rule
 
